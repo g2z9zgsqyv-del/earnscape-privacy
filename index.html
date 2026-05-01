@@ -3,202 +3,257 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Earnscape — Privacy Policy & Terms of Use</title>
+    <title>SoloPay — Privacy Policy & Terms</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.7; color: #1a1a2e; background: #fafafa;
-            padding: 0 20px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background: #0F1421;
+            color: #E0E0E0;
+            line-height: 1.6;
+            font-size: 15px;
         }
-        .container { max-width: 720px; margin: 0 auto; padding: 60px 0 80px; }
-        .logo { text-align: center; margin-bottom: 40px; }
-        .logo h1 {
-            font-size: 32px; font-weight: 700; color: #1C1028;
-            letter-spacing: -0.5px;
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
         }
-        .logo p { font-size: 14px; color: #6b7280; margin-top: 4px; }
-        .tabs {
-            display: flex; gap: 0; margin-bottom: 40px;
-            border-bottom: 2px solid #e5e7eb;
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #FFFFFF;
+            margin-top: 40px;
         }
-        .tab {
-            padding: 12px 24px; cursor: pointer; font-weight: 600;
-            font-size: 15px; color: #6b7280; border-bottom: 2px solid transparent;
-            margin-bottom: -2px; transition: all 0.2s;
-        }
-        .tab.active { color: #1C1028; border-bottom-color: #D4AF37; }
-        .tab:hover { color: #1C1028; }
-        .section { display: none; }
-        .section.active { display: block; }
+        h1:first-child { margin-top: 0; }
         h2 {
-            font-size: 22px; font-weight: 700; color: #1C1028;
-            margin: 36px 0 12px; padding-top: 12px;
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #FFFFFF;
+            scroll-margin-top: 80px;
         }
-        h2:first-child { margin-top: 0; }
-        h3 { font-size: 17px; font-weight: 600; color: #1C1028; margin: 24px 0 8px; }
-        p { margin-bottom: 14px; color: #374151; font-size: 15px; }
-        ul { margin: 0 0 14px 24px; color: #374151; font-size: 15px; }
-        li { margin-bottom: 6px; }
-        .effective {
-            display: inline-block; font-size: 13px; color: #6b7280;
-            background: #f3f4f6; padding: 4px 12px; border-radius: 20px;
-            margin-bottom: 24px;
+        p { margin-bottom: 14px; color: #D0D0D0; }
+        li { margin-bottom: 10px; color: #D0D0D0; margin-left: 20px; }
+        ul, ol { margin-bottom: 16px; }
+        strong { color: #FFFFFF; font-weight: 600; }
+        code {
+            background: rgba(139, 92, 246, 0.1);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: "SF Mono", Monaco, monospace;
+            font-size: 13px;
+            color: #8B5CF6;
         }
-        .contact-box {
-            background: #f8f7fc; border: 1px solid #e5e7eb;
-            border-radius: 12px; padding: 20px; margin-top: 24px;
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
+            border-left: 4px solid #3B82F6;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 20px 0;
         }
-        .contact-box p { margin-bottom: 4px; }
-        .contact-box a { color: #7C3AED; text-decoration: none; }
-        .contact-box a:hover { text-decoration: underline; }
+        .highlight-box p { margin: 0; color: #E0E0E0; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        th {
+            background: rgba(139, 92, 246, 0.1);
+            font-weight: 600;
+            color: #FFFFFF;
+        }
+        a {
+            color: #3B82F6;
+            text-decoration: none;
+        }
+        a:hover { text-decoration: underline; }
         .footer {
-            text-align: center; margin-top: 60px; padding-top: 24px;
-            border-top: 1px solid #e5e7eb; color: #9ca3af; font-size: 13px;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 13px;
+            color: #888888;
         }
+        .section-anchor { display: block; height: 0; visibility: hidden; }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="logo">
-            <h1>Earnscape</h1>
-            <p>Freelance Business Manager</p>
+        <h1>SoloPay — Privacy Policy & Terms of Use</h1>
+        <p style="color: #888888; margin-bottom: 30px;">Last updated: 1 May 2026</p>
+
+        <div class="highlight-box">
+            <p><strong>Privacy Summary:</strong> Your data stays on your device. SoloPay is offline-first — all invoices, time entries, clients, and projects are stored locally on your iPhone. Nothing is sent to our servers, and we don't track you.</p>
         </div>
 
-        <div class="tabs">
-            <div class="tab active" onclick="showTab('privacy')">Privacy Policy</div>
-            <div class="tab" onclick="showTab('terms')">Terms of Use</div>
+        <h2>1. What Data Does SoloPay Collect?</h2>
+        <p>SoloPay is designed to protect your privacy. Here's exactly what we do and don't collect:</p>
+        <p><strong>What SoloPay stores (on your device only):</strong></p>
+        <ul>
+            <li>Clients you add (name, email, phone, company, address, hourly rate)</li>
+            <li>Projects you create (name, description, budget, deadline)</li>
+            <li>Tasks you add (title, due date, priority, notes)</li>
+            <li>Time entries you log (duration, description, project, client)</li>
+            <li>Invoices you generate (invoice number, amounts, client, line items)</li>
+            <li>Business details you set in Settings (business name, address, contact)</li>
+            <li>Your preferences (currency, budget thresholds, notification settings)</li>
+        </ul>
+        <p><strong>What SoloPay does NOT collect or track:</strong></p>
+        <ul>
+            <li>No analytics or usage data</li>
+            <li>No advertising identifiers or tracking cookies</li>
+            <li>No location data</li>
+            <li>No camera, photos, or contacts access</li>
+            <li>No browsing history or personal identifiers</li>
+            <li>No IP address logging</li>
+            <li>No third-party tracking SDKs</li>
+        </ul>
+
+        <h2>2. Where Is My Data Stored?</h2>
+        <p><strong>Local device storage:</strong> All your data is stored in encrypted form on your iPhone in the app's private sandbox folder, protected by your device's passcode and iOS encryption.</p>
+        <p><strong>iCloud backups:</strong> If you have iCloud+ enabled, your device backups may include app data. This is controlled by Apple's backup system, not by SoloPay. You can disable iCloud backups for SoloPay in Settings → [Your Name] → iCloud → Manage Storage → SoloPay.</p>
+        <p><strong>No remote servers:</strong> SoloPay does not send your data to any SoloPay servers. Your data never leaves your device unless you explicitly choose to share it (via email, export, or share sheet).</p>
+
+        <h2>3. When Does My Data Leave My Device?</h2>
+        <p>Your data only leaves your device when <strong>you</strong> initiate an action:</p>
+        <ul>
+            <li><strong>Email an invoice:</strong> When you tap "Email Invoice," the PDF is sent via Apple Mail directly to the recipient. We don't route it through our servers.</li>
+            <li><strong>Export records:</strong> When you tap "Records Export," a PDF and CSV files are generated and presented via the iOS share sheet — you choose where they go (email, Messages, Notes, Files, etc.).</li>
+            <li><strong>Share via iOS share sheet:</strong> Any share action uses Apple's native share APIs — data goes to the app you select.</li>
+            <li><strong>In-app purchases:</strong> When you subscribe to SoloPay Pro, your payment is processed by Apple's StoreKit framework. SoloPay does not see your payment details.</li>
+        </ul>
+
+        <h2>4. Third-Party Services</h2>
+        <p>SoloPay integrates only with Apple's own services:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Purpose</th>
+                    <th>Data Shared</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Apple StoreKit 2</strong></td>
+                    <td>Subscription purchases (Pro tier)</td>
+                    <td>Apple receives your purchase details; we don't</td>
+                </tr>
+                <tr>
+                    <td><strong>UserNotifications</strong></td>
+                    <td>Local reminders (invoices, budgets)</td>
+                    <td>Notifications stay on your device</td>
+                </tr>
+                <tr>
+                    <td><strong>MessageUI</strong></td>
+                    <td>Email composer for invoice delivery</td>
+                    <td>Your email app handles recipient data</td>
+                </tr>
+                <tr>
+                    <td><strong>UIActivityViewController</strong></td>
+                    <td>iOS share sheet</td>
+                    <td>Data goes to the app you choose</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>No analytics, no tracking, no ads.</strong> We do not use Firebase, Mixpanel, Amplitude, or any analytics platform.</p>
+
+        <h2>5. Your Rights</h2>
+        <p><strong>You have full control over your data:</strong></p>
+        <ul>
+            <li><strong>Access:</strong> All your data is visible in the app</li>
+            <li><strong>Edit:</strong> You can edit or update any client, project, invoice, or time entry at any time</li>
+            <li><strong>Export:</strong> You can export Records Export (PDF + CSVs) for any UK tax year</li>
+            <li><strong>Delete:</strong> You can delete any individual record (client, project, invoice, time entry)</li>
+            <li><strong>Reset all:</strong> In Settings → Data, you can "Reset All Data" which permanently deletes everything</li>
+        </ul>
+        <p><strong>UK GDPR & EU GDPR Rights:</strong> Under GDPR Article 15–22, you have the right to access, correct, delete, restrict, export, and port your data. Because SoloPay stores everything on your device and you control it entirely, these rights are exercised directly in the app — no need to contact us.</p>
+
+        <h2>6. Children's Privacy</h2>
+        <p>SoloPay is designed for freelancers and sole traders (adults). We do not knowingly collect data from anyone under 13. If you believe a child has created an account, please contact <code>focusflowuk@gmail.com</code> and we will help delete their data.</p>
+
+        <h2>7. Changes to This Privacy Policy</h2>
+        <p>We may update this policy from time to time. We will post changes here and update the "Last updated" date at the top. Continued use of the app constitutes acceptance of the updated policy. If a material change affects your rights, we will provide notice in the app or via update notes in the App Store.</p>
+
+        <h2>8. Contact Us</h2>
+        <p>If you have questions about this privacy policy, your data, or how SoloPay handles your information, contact:</p>
+        <p><strong>Email:</strong> <a href="mailto:focusflowuk@gmail.com">focusflowuk@gmail.com</a></p>
+        <p>Please allow 5–7 business days for a response.</p>
+
+        <div style="height: 40px;"></div>
+        <h2 id="terms">Terms of Use</h2>
+
+        <h2>1. Licence</h2>
+        <p>SoloPay is licensed to you, the end user, for personal, non-commercial use on your own iOS devices. You may not:</p>
+        <ul>
+            <li>Reverse engineer, decompile, or attempt to discover source code</li>
+            <li>Redistribute, sell, or sublicense the app</li>
+            <li>Use the app for unlawful purposes</li>
+            <li>Attempt to circumvent license verification or in-app purchase mechanisms</li>
+        </ul>
+
+        <h2>2. Subscriptions</h2>
+        <p><strong>SoloPay Pro:</strong> Available as a monthly (£4.99/month) or annual (£39.99/year) subscription.</p>
+        <p><strong>Pricing:</strong> Prices may change. We will notify you of price changes before they take effect. You may cancel your subscription before the price change to avoid it.</p>
+        <p><strong>Free Trial:</strong> New subscribers receive a 14-day free trial. Your subscription will automatically renew at the end of the trial unless you cancel at least 24 hours before renewal.</p>
+        <p><strong>Cancellation:</strong> You can cancel your subscription at any time via the App Store. Your access to Pro features will end at the end of your current billing period.</p>
+        <p><strong>Refunds:</strong> Refund requests are handled by Apple via your App Store account. SoloPay does not process refunds directly.</p>
+
+        <h2>3. Acceptable Use</h2>
+        <p>You agree not to use SoloPay to:</p>
+        <ul>
+            <li>Create fraudulent invoices or engage in billing fraud</li>
+            <li>Harass, threaten, or defame anyone</li>
+            <li>Violate anyone's intellectual property or privacy rights</li>
+            <li>Break local, state, or national laws</li>
+            <li>Store or transmit malware or harmful code</li>
+        </ul>
+
+        <h2>4. Limitation of Liability</h2>
+        <p><strong>SoloPay is provided "as is" without warranties.</strong> SoloPay (and its creators) are not liable for:</p>
+        <ul>
+            <li>Data loss due to device malfunction, accidental deletion, or backup failure</li>
+            <li>Any financial, tax, or legal consequences arising from your use of the app</li>
+            <li>Invoices you generate (their accuracy, legality, or compliance with tax law is your responsibility)</li>
+            <li>Any loss of earnings, business interruption, or indirect damages</li>
+        </ul>
+        <p>To the maximum extent permitted by law, our total liability for any claim is limited to the amount you paid for SoloPay (or £0 if you're using the free tier).</p>
+
+        <h2>5. Disclaimer — Not Tax or Legal Advice</h2>
+        <div class="highlight-box">
+            <p><strong>⚠️ Important:</strong> SoloPay is a productivity and invoicing tool for freelancers. It is <strong>not</strong> a tax advisor, accountant, or legal service.</p>
+            <p>SoloPay does not provide tax, accounting, or legal advice. You are solely responsible for:</p>
+            <ul style="margin-top: 8px;">
+                <li>Ensuring your invoices meet UK and local legal requirements</li>
+                <li>Calculating correct VAT (if applicable) and ensuring you meet HMRC registration thresholds (£90,000)</li>
+                <li>Keeping accurate records for Self Assessment and Making Tax Digital (MTD)</li>
+                <li>Filing your tax return on time</li>
+                <li>Complying with all applicable laws in your jurisdiction</li>
+            </ul>
+            <p style="margin-top: 12px;">For tax and accounting advice, consult a qualified accountant or visit <strong>gov.uk</strong>.</p>
         </div>
 
-        <!-- PRIVACY POLICY -->
-        <div id="privacy" class="section active">
-            <span class="effective">Effective date: 15 March 2025</span>
+        <h2>6. Governing Law</h2>
+        <p>These terms are governed by the laws of England and Wales (UK). Any disputes shall be resolved in the courts of England and Wales.</p>
 
-            <h2>Overview</h2>
-            <p>Earnscape ("we", "our", "the app") is a freelance business management app for iOS. We are committed to protecting your privacy. This policy explains what data the app handles and how it is stored.</p>
+        <h2>7. Severability</h2>
+        <p>If any part of these terms is found to be invalid or unenforceable, the remaining parts shall continue in full effect.</p>
 
-            <h2>Data Storage</h2>
-            <p>All data you enter into Earnscape — including clients, projects, tasks, time entries, and invoices — is stored locally on your device. Your data is saved as JSON files in the app's sandboxed document directory.</p>
-            <p>We do not have access to your data. We cannot view, retrieve, or recover your data if you delete the app or reset your device.</p>
-
-            <h2>Data We Do Not Collect</h2>
-            <p>Earnscape does not collect, transmit, or share any of the following:</p>
-            <ul>
-                <li>Personal information (name, email, phone number)</li>
-                <li>Client or business data you enter into the app</li>
-                <li>Financial information (invoices, rates, earnings)</li>
-                <li>Location data</li>
-                <li>Usage analytics or tracking data</li>
-                <li>Device identifiers for advertising purposes</li>
-            </ul>
-
-            <h2>Subscriptions & Payments</h2>
-            <p>Earnscape offers optional in-app subscriptions (monthly and annual) managed entirely through Apple's App Store. Payment processing is handled by Apple. We do not have access to your payment details, credit card information, or Apple ID.</p>
-            <p>Subscription management, including cancellation and renewal, is handled through your Apple ID settings.</p>
-
-            <h2>Third-Party Services</h2>
-            <p>Earnscape does not integrate with any third-party analytics, advertising, or tracking services. The app does not contain any third-party SDKs that collect user data.</p>
-            <p>The only external service the app communicates with is Apple's StoreKit framework for processing in-app purchases.</p>
-
-            <h2>Future Cloud Sync</h2>
-            <p>We may introduce optional cloud synchronisation in a future update to allow you to sync data across your devices. If implemented, this feature will:</p>
-            <ul>
-                <li>Be entirely optional — you can continue using the app with local-only storage</li>
-                <li>Use Apple's iCloud infrastructure, meaning your data remains within Apple's ecosystem</li>
-                <li>Not grant us access to your synced data</li>
-            </ul>
-            <p>We will update this privacy policy before introducing any cloud features and will notify users within the app.</p>
-
-            <h2>Data Deletion</h2>
-            <p>You can delete all your data at any time using the "Reset All Data" option in the app's Settings screen. This permanently removes all stored information from your device.</p>
-            <p>Uninstalling the app will also remove all locally stored data.</p>
-
-            <h2>Children's Privacy</h2>
-            <p>Earnscape is not directed at children under 13. We do not knowingly collect any information from children.</p>
-
-            <h2>Changes to This Policy</h2>
-            <p>We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated effective date. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
-
-            <div class="contact-box">
-                <h3>Contact</h3>
-                <p>If you have questions about this privacy policy, contact us at:</p>
-                <p><a href="mailto:focusflowuk@gmail.com">focusflowuk@gmail.com</a></p>
-            </div>
-        </div>
-
-        <!-- TERMS OF USE -->
-        <div id="terms" class="section">
-            <span class="effective">Effective date: 15 March 2025</span>
-
-            <h2>Acceptance of Terms</h2>
-            <p>By downloading, installing, or using Earnscape, you agree to be bound by these Terms of Use. If you do not agree to these terms, do not use the app.</p>
-
-            <h2>Description of Service</h2>
-            <p>Earnscape is a freelance business management app that allows you to manage clients, projects, tasks, time tracking, invoices, and analytics. The app is available as a free version with limited features and as a paid subscription ("Earnscape Pro") with full access to all features.</p>
-
-            <h2>Free Tier</h2>
-            <p>The free version of Earnscape includes:</p>
-            <ul>
-                <li>Up to 2 clients</li>
-                <li>Up to 2 projects</li>
-                <li>Up to 3 invoices</li>
-                <li>Unlimited tasks and time tracking</li>
-            </ul>
-
-            <h2>Earnscape Pro Subscription</h2>
-            <p>Earnscape Pro unlocks unlimited clients, projects, and invoices, plus access to analytics and budget tracking features.</p>
-            <ul>
-                <li><strong>Monthly:</strong> £4.99 per month</li>
-                <li><strong>Annual:</strong> £39.99 per year</li>
-            </ul>
-            <p>Subscriptions are billed through your Apple ID account. Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current billing period. You can manage or cancel your subscription in your Apple ID account settings.</p>
-
-            <h2>Free Trial</h2>
-            <p>New users may be offered a 7-day free trial of Earnscape Pro. The trial provides full access to all Pro features. After the trial period ends, Pro features will be locked unless you subscribe.</p>
-
-            <h2>Your Data</h2>
-            <p>You retain full ownership of all data you enter into Earnscape. We do not claim any rights to your content. You are solely responsible for maintaining backups of your data.</p>
-
-            <h2>Acceptable Use</h2>
-            <p>You agree to use Earnscape only for lawful purposes and in accordance with these terms. You may not:</p>
-            <ul>
-                <li>Attempt to reverse-engineer, decompile, or modify the app</li>
-                <li>Use the app to store or transmit illegal content</li>
-                <li>Circumvent any access restrictions or subscription requirements</li>
-            </ul>
-
-            <h2>Disclaimer of Warranties</h2>
-            <p>Earnscape is provided "as is" without warranties of any kind, either express or implied. We do not warrant that the app will be uninterrupted, error-free, or free of harmful components.</p>
-            <p>Earnscape is a business management tool, not a substitute for professional accounting, legal, or financial advice. You are responsible for ensuring the accuracy of your financial records and compliance with applicable tax and business regulations.</p>
-
-            <h2>Limitation of Liability</h2>
-            <p>To the maximum extent permitted by law, we shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of data, business, or profits, arising from your use of the app.</p>
-
-            <h2>Changes to Terms</h2>
-            <p>We reserve the right to modify these terms at any time. Changes will be posted on this page. Your continued use of the app after changes constitutes acceptance of the updated terms.</p>
-
-            <h2>Governing Law</h2>
-            <p>These terms are governed by and construed in accordance with the laws of England and Wales.</p>
-
-            <div class="contact-box">
-                <h3>Contact</h3>
-                <p>If you have questions about these terms, contact us at:</p>
-                <p><a href="mailto:focusflowuk@gmail.com">focusflowuk@gmail.com</a></p>
-            </div>
-        </div>
+        <h2>8. Entire Agreement</h2>
+        <p>These terms and the privacy policy constitute the entire agreement between you and SoloPay regarding the app. They supersede all prior agreements or understandings.</p>
 
         <div class="footer">
-            <p>&copy; 2025 Earnscape. All rights reserved.</p>
+            <p>© 2025 SoloPay. All rights reserved.</p>
+            <p>SoloPay is a personal project built for UK freelancers and sole traders.</p>
+            <p>For questions: <a href="mailto:focusflowuk@gmail.com">focusflowuk@gmail.com</a></p>
         </div>
     </div>
-
-    <script>
-        function showTab(tab) {
-            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-            document.getElementById(tab).classList.add('active');
-            event.target.classList.add('active');
-        }
-    </script>
 </body>
 </html>
